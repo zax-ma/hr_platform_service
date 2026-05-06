@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: kpi
+
+bonus:
+  shared:
+    base: 100_000
+  threshold:
+    base: 20_000
+  types:
+    shared:
+      SALES: 60
+      QUALITY: 40
+      RETENTION: 5
+      OTHER: 5
+    threshold:
+      SALES: 90
+      QUALITY: 50
+      RETENTION: 80
+      OTHER: 5
